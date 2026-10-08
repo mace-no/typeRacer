@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>TypeRacerRecreation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <div>
+            <div id="topmenu" class="navbar navbar-expand-lg py-1">
+                <div class="container-fluid px-5">
+                    <div class="d-flex justify-content-start align-items-center">
+                        <img src="logo.svg" width="48px" class="mb-0 ms-3">
+                        <p class="mb-0 ms-2"><strong>typeracer</strong></p>
+                        <p class="mb-0 ms-4">Pit Stop</p>
+                        <p class="mb-0 ms-3">Updates</p>  
+                        <p class="mb-0 ms-3">Discord</p>
+                        <p class="mb-0 ms-3">About</p>
+                        <p class="mb-0 ms-3">Merch</p> 
+                    </div>
+                    <div class="d-flex justify-content-end align-items-center">
+                        <a href="" class="btn btn-custom1 py-1">
+                            <svg width="20" height="20" viewBox="0 0 576 512">
+                                <path fill="#015893" d="M309.5-18.9c-4.1-8-12.4-13.1-21.4-13.1s-17.3 5.1-21.4 13.1L193.1 125.3 33.2 150.7c-8.9 1.4-16.3 7.7-19.1 16.3s-.5 18 5.8 24.4l114.4 114.5-25.2 159.9c-1.4 8.9 2.3 17.9 9.6 23.2s16.9 6.1 25 2L288.1 417.6 432.4 491c8 4.1 17.7 3.3 25-2s11-14.2 9.6-23.2L441.7 305.9 556.1 191.4c6.4-6.4 8.6-15.8 5.8-24.4s-10.1-14.9-19.1-16.3L383 125.3 309.5-18.9z"></path>
+                            </svg>
+                            <strong>Subscribe</strong>
+                        </a>
+                        <img src="head.svg" width="45px" class="ms-4 rounded" style="background-color: #07bcf5;">
+                        <div class="ms-3 d-flex flex-column">
+                            <div><strong>Guest</strong></div>
+                            <div>
+                                <a class="btn btn-custom2 py-0 px-2">
+                                    <strong>CREATE ACCOUNT</strong>
+                                </a>
+                                <a class="btn btn-custom3 py-0 px-2 ms-1">
+                                    <strong>SIGN IN</strong>
+                                </a>
+                                <button class="btn btn-custom4 py-0 px-2 ms-1">
+                                    <strong>0 WPM</strong>
+                                </button>
+                                <a class="btn btn-custom4 py-0 px-2 ms-1">
+                                    <strong>0 Races</strong>
+                                </a>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+
+            <div class="grad-background">
+                <div class="container pt-4" style="width:65%">
+                    <div id="createAcc" class="p-4 d-flex justify-content-between align-items-center rounded-3">
+                        <div>
+                            <p style="font-size: 20px" class="mb-0"><strong>Save Your Races with a Free TypeRacer Account!</strong></p>
+                            <p class="mb-0">Your races aren't being saved. Create a free account to change your look in races,<br>
+                                access detailed stats, and more!</p>
+                        </div>
+                        <div>
+                            <a class="btn btn-custom5 py-2"><strong>Create Your Account</strong></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container pt-4" style="width:65%">
+                    <div id="enterRace" class="p-4 rounded-3 position-relative overflow-hidden">
+                        <img src="truck.svg" class="position-absolute w-100 h-100" style="left: 28%; top: -20px;transform: scaleX(-1);">
+
+                        <div>
+                            <p style="font-size: 24px" class="mb-0"><strong>TypeRacer - The Global Typing Competition</strong></p>
+                            <p class="mb-0" style="font-size: 18px">Increase your typing speed while racing against others!</p>
+                        </div>
+                        <div>
+                            <a class="btn btn-custom3-1 py-4 px-5 mt-3"><strong>Enter a Typing Race</strong></a>
+                        </div>
+                        <div class="navbar rounded-4 bg-light bg-opacity-75 mt-3">
+                            <div class="d-flex justify-content-start">
+                                <p style="font-size: 16px" class="ms-3 mb-0">Language: <strong>English</strong></p>
+                                <p style="font-size: 16px" class="ms-3 mb-0">Instant Death Mode: </p>
+                                <p style="font-size: 16px"class="ms-3 mb-0">Theme: <strong>Light</strong></p>
+                            </div>
+                            <div class="d-flex justify-content-end">
+                                <i style="font-size: 24px" class="bi bi-discord ms-3"></i>
+                                <i style="font-size: 24px" class="bi bi-facebook ms-3"></i>
+                                <i style="font-size: 24px" class="bi bi-tiktok ms-3"></i>
+                                <i style="font-size: 24px" class="bi bi-youtube ms-3"></i>
+                                <i style="font-size: 24px" class="bi bi-twitter-x mx-3"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container pt-4" style="width:65%">
+                    <div id="quoteDay" class="p-4 rounded-3 position-relative overflow-hidden">
+                        <img src="car.svg" class="position-absolute w-100 h-100" style="left: 28%; top: -70px; transform: scale(1.7)">
+
+                        <div>
+                            <p style="font-size: 24px" class="mb-0"><strong>Quote of the Day</strong></p>
+                            <p class="mb-0" style="font-size: 18px">The daily typing speed race!</p>
+                        </div>
+                        <div>
+                            <a class="btn btn-custom3-1 py-4 px-5 mt-3"><strong>Play the Quote of the Day</strong></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="d-flex container justify-content-between pt-4" style="width:65%">
+                    <div id="typeTest" class="p-4 rounded-3 position-relative overflow-hidden" style="width: 45%;">
+                        <img src="red.svg" class="position-absolute w-100 h-100" style="left: 41%; top: 40px; transform: scale(.4)">
+
+                        <div>
+                            <p style="font-size: 24px" class="mb-0"><strong>Typing Test</strong></p>
+                            <p class="mb-0" style="font-size: 18px">Improve your typing skills on your own</p>
+                        </div>
+                        <div>
+                            <a class="btn btn-custom6 py-4 px-5 mt-3"><strong>Practice Yourself</strong></a>
+                        </div>
+                    </div>
+                    <div id="raceFriends" class="p-4 rounded-3 position-relative overflow-hidden" style="width: 45%;">
+                        <img src="blueRed.svg" class="position-absolute w-100 h-100" style="left: 40%; top: 40px; transform: scale(.5)">
+
+                        <div>
+                            <p style="font-size: 24px" class="mb-0"><strong>Race your friends</strong></p>
+                            <p class="mb-0" style="font-size: 18px">Create your own racetrack and play with friends</p>
+                        </div>
+                        <div>
+                            <a class="btn btn-custom5 py-4 px-5 mt-3"><strong>Create Racetrack</strong></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>    
+        </div>
+        
+        <script src="" async defer></script>
+    </body>
+</html>
